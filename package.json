@@ -22,14 +22,15 @@
   },
   "pre-commit": "build",
   "devDependencies": {
-    "autoprefixer": "^9.8.6",
-    "bootstrap": "^4.1.1",
+    "autoprefixer": "^10.0.1",
+    "bootstrap": "^4.5.2",
     "del": "^6.0.0",
     "gulp": "^4.0.0",
     "gulp-header": "^2.0.5",
-    "gulp-postcss": "^8.0.0",
+    "gulp-postcss": "^9.0.0",
     "gulp-sass": "^4.0.2",
     "node-sass": "^4.12.0",
+    "postcss": "^8.1.0",
     "pre-commit": "^1.2.2"
   },
   "browserslist": {

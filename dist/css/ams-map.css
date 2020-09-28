@@ -732,11 +732,9 @@ a {
       width: 100%; }
       .embed-search__form > input::-ms-clear {
         display: none; }
-      .embed-search__form > input::-webkit-input-placeholder {
-        font-family: "AvenirNextLTW01-Regular", verdana, sans-serif; }
       .embed-search__form > input::-moz-placeholder {
         font-family: "AvenirNextLTW01-Regular", verdana, sans-serif; }
-      .embed-search__form > input::-ms-input-placeholder {
+      .embed-search__form > input:-ms-input-placeholder {
         font-family: "AvenirNextLTW01-Regular", verdana, sans-serif; }
       .embed-search__form > input::placeholder {
         font-family: "AvenirNextLTW01-Regular", verdana, sans-serif; }
@@ -781,8 +779,7 @@ a {
       left: 50%;
       position: absolute;
       top: 55%;
-      -webkit-transform: translate(-50%, -50%);
-              transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
       width: 24px; }
     .embed-search__button.primary.action:hover, .embed-search__button.primary.action:focus {
       background-color: #BC0000; }
