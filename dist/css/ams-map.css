@@ -734,7 +734,7 @@ a {
         display: none; }
       .embed-search__form > input::-webkit-input-placeholder {
         font-family: "AvenirNextLTW01-Regular", verdana, sans-serif; }
-      .embed-search__form > input:-ms-input-placeholder {
+      .embed-search__form > input::-moz-placeholder {
         font-family: "AvenirNextLTW01-Regular", verdana, sans-serif; }
       .embed-search__form > input::-ms-input-placeholder {
         font-family: "AvenirNextLTW01-Regular", verdana, sans-serif; }
